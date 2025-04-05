@@ -19,11 +19,14 @@ Implementation of a simplified MIPS-based processor with custom ISA, developed i
 - Zero/sign extension units
 
 ### Stage 2: Assembly Programming
-**Arithmetic Progression Calculator**:
-```math
-S = Σ(a + i·r)   for i = 0 to N-1
+```markdown
+**Arithmetic Progression Formula**:
+$$
+S = \sum_{i=0}^{N-1} (a + i \cdot r)
+$$
 ```
-
+<br>
+<br>
 
 ## 🚀 Getting Started
 
