@@ -20,17 +20,25 @@ Implementation of a simplified MIPS-based processor with custom ISA, developed i
 
 ### Stage 2: Assembly Programming
 **Arithmetic Progression Calculator**:
+```c
 S = Σ(a + i·r) for i=0 to N-1
+```
 
 
-## 🛠️ How to Run
-1. **Install Digital**:
-   ```bash
-   sudo apt install openjdk-17-jdk  # For Linux
-   git clone https://github.com/hneemann/Digital
-   cd Digital
-   java -jar Digital.jar
-2. Open Main.dig and run
+## 🚀 Getting Started
+
+### 1. Install Digital Simulator
+```bash
+# For Debian/Ubuntu Linux:
+sudo apt update && sudo apt install openjdk-17-jdk git
+git clone https://github.com/hneemann/Digital
+cd Digital
+java -jar Digital.jar
+```
+    Note: For Windows/Mac, download the prebuilt JAR from Digital's Releases
+### 2. Clone this repository
+### 3. Open Main.dig and run
+
 
 <br>
 
