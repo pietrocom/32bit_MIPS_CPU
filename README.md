@@ -19,7 +19,7 @@ Implementation of a simplified MIPS-based processor with custom ISA, developed i
 - Zero/sign extension units
 
 ### Stage 2: Assembly Programming
-**Arithmetic Progression implemented useing Assembly**:
+**Arithmetic Progression implemented using Assembly**:
 ```math
 S = \sum_{i=0}^{N-1} (a + i \cdot r)
 ```
