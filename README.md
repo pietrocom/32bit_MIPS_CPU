@@ -32,11 +32,27 @@ S = Σ(a + i·r) for i=0 to N-1
    java -jar Digital.jar
 2. Open Main.dig and run
 
-🛠 Technical Specifications
-Component	Details
-Simulator	Digital 
-Word Size	32-bit
-Registers	16 (R0 always zero)
-ALU Ops	Add, Sub, Mult, AND/OR/XOR, SLL
-I/O	Display output via show
+
+# Instruction Set Architecture (ISA)
+
+## 🖥️ Processor Instruction Table
+
+| Opcode | Mnemonic | Semantics                  | Description                          |
+|--------|----------|----------------------------|--------------------------------------|
+| **0**  | `nop`    | `–`                        | No operation                         |
+| **1**  | `li`     | `R(c) ← imm`               | Load immediate into register         |
+| **2**  | `add`    | `R(c) ← R(a) + R(b)`       | Add registers                        |
+| **3**  | `sub`    | `R(c) ← R(a) - R(b)`       | Subtract registers                   |
+| **4**  | `mult`   | `R(c) ← R(a) * R(b)`       | Multiply registers                   |
+| **5**  | `and`    | `R(c) ← R(a) AND R(b)`     | Bitwise AND                          |
+| **6**  | `or`     | `R(c) ← R(a) OR R(b)`      | Bitwise OR                           |
+| **7**  | `xor`    | `R(c) ← R(a) XOR R(b)`     | Bitwise XOR                          |
+| **8**  | `sll`    | `R(c) ← R(a) « R(b)`       | Shift left logical                   |
+| **9**  | `addi`   | `R(c) ← R(a) + extZero(imm)` | Add immediate (zero-extended)       |
+| **10** | `subi`   | `R(c) ← R(a) - extZero(imm)` | Subtract immediate (zero-extended)  |
+| **11** | `jump`   | `IP ← E`<br>`E ← IP + extSign(imm)` | Unconditional jump                |
+| **12** | `branch` | `if (R(a) == R(b)) {IP ← E}`<br>`E ← IP + extSign(imm)` | Conditional branch |
+| **13** | `show`   | `Display R(a)`             | Register output display              |
+| **14** | `halt`   | `IP ← IP + 0`              | Terminate execution                  |
+
 
