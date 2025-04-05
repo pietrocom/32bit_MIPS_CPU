@@ -21,10 +21,7 @@ Implementation of a simplified MIPS-based processor with custom ISA, developed i
 ### Stage 2: Assembly Programming
 **Arithmetic Progression**:
 ```math
-**Arithmetic Progression**:
-<pre>
-$$\left(S \right) \eq \left(sum_{i=1}^n-1 a + i * r \right)
-</pre>
+\left(S \right) \eq \left(sum_{i=1}^n-1 a + i * r \right)
 ```
 
 <br>
