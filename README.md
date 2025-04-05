@@ -20,8 +20,11 @@ Implementation of a simplified MIPS-based processor with custom ISA, developed i
 
 ### Stage 2: Assembly Programming
 **Arithmetic Progression**:
-```math
-S = ∑ (a + i·r)  where i ∈ [0,N-1]
+```markdown
+**Arithmetic Progression**:
+<pre>
+S = &Sum; (a + i·r)  for i = 0 to N-1
+</pre>
 ```
 
 <br>
