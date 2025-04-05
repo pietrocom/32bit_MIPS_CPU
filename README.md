@@ -32,6 +32,7 @@ S = Σ(a + i·r) for i=0 to N-1
    java -jar Digital.jar
 2. Open Main.dig and run
 
+<br>
 
 # Instruction Set Architecture (ISA)
 
