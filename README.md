@@ -19,15 +19,8 @@ Implementation of a simplified MIPS-based processor with custom ISA, developed i
 - Zero/sign extension units
 
 ### Stage 2: Assembly Programming
-S = N-1
-_____
-╲
-╲
-╲ (a + i·r)
-╱
-╱
-‾‾‾‾‾
-i = 0
+**Arithmetic Progression**:
+S = Σ (a + i·r)  [i=0 → N-1]
 <br>
 <br>
 
